@@ -1,0 +1,25 @@
+:root {
+  --cornsilk: #fefae0;
+  --earth-yellow: #d5a769;
+  --moss-green: #6B7C6B;
+  --tigers-eye: #bc6c25;
+  --raw-umber: #896242;
+  --smoky-black: #16170E;
+  --alabaster: #e5e2db;
+  --white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Serif", serif;
+  font-size: 1.6rem;
+}
+
+.link {
+  text-decoration: none;
+}

@@ -1,0 +1,24 @@
+button {
+  width: 160px;
+  padding: 10px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0.3px 0.3px 3px rgb(130, 130, 130);
+
+  &.white {
+    background-color: var(--earth-yellow);
+    color: var(--smoky-black);
+  }
+
+  &.black {
+    background-color: var(--smoky-black);
+    color: var(--cornsilk);
+  }
+}
+
+button:hover {
+  background-color: var(--tigers-eye);
+  cursor: pointer;
+}
+

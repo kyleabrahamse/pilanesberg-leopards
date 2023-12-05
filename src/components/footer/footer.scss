@@ -1,0 +1,31 @@
+.footer {
+  background-color: var(--cornsilk);
+  padding: 50px 80px 50px 80px;
+  color: var(--smoky-black);
+
+  i {
+    margin-top: 50px;
+    margin-right: 20px;
+    color: var(--smoky-black);
+  }
+
+  i:hover {
+    color: var(--tigers-eye)
+  }
+
+  .date {
+    border-top: 1px solid var(--smoky-black);
+    margin-top: 30px;
+    padding-top: 15px;
+  }
+
+  a:hover {
+    color: var(--tigers-eye)
+  }
+}
+
+@media (max-width: 800px) {
+  .footer {
+    padding: 50px 20px;
+  }
+}
