@@ -34,7 +34,8 @@ function Nav() {
             <Button buttonType="white" text="Contact" />
             <Button text="Support" />
           </div>
-          <i className="fa-solid fa-bars burger-menu" onClick={burgers}></i>
+          <i className={ isOpen? "fa-solid fa-x burger-menu" : "fa-solid fa-bars burger-menu" } onClick={burgers}></i>
+          {/* <i class="fa-solid fa-x"></i> */}
           {/* <p className="burger-menu" onClick={burgers}>burgers</p> */}
         </div>
       </Headroom>

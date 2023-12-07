@@ -8,7 +8,7 @@ function Footer() {
     <div className="footer">
       <strong className="contact">contact:</strong>
       <p>
-        
+        abc@def.com
       </p>
       <Link
         target="_blank"
