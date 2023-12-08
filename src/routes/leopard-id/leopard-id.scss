@@ -1,0 +1,22 @@
+.profiles-container {
+  margin: 80px auto;
+  text-align: center;
+  background-color: var(--moss-green);
+  height: 100vh;
+
+  h1 {
+    padding-top: 50px;
+    margin-bottom: 80px;
+  }
+}
+
+.id-list {
+  display: grid;
+  object-fit: cover;
+  grid-template-columns: repeat(5, 1fr);
+  width: 90%;
+  margin: 0 auto;
+  background-color: var(--cornsilk);
+  padding: 40px;
+  border-radius: 5px;
+}
