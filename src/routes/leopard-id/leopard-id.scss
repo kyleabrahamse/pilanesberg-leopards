@@ -1,12 +1,13 @@
 .profiles-container {
-  margin: 80px auto;
+  margin: auto;
   text-align: center;
   background-color: var(--moss-green);
-  height: 100vh;
+  
 
   h1 {
-    padding-top: 50px;
-    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: var(--alabaster)
   }
 }
 
@@ -19,4 +20,12 @@
   background-color: var(--cornsilk);
   padding: 40px;
   border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+@media(max-width: 800px) {
+  .id-list {
+    display: grid;
+    grid-template-columns: auto;
+  }
 }

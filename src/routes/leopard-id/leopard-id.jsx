@@ -1,6 +1,7 @@
 import "./leopard-id.scss";
 import LeopardIdCard from "../../components/leopard-id-card/leopard-id-card";
 import leopardIdCards from "../../leopard-profiles";
+import Footer from "../../components/footer/footer"
 
 function LeopardProfiles() {
   return (
@@ -11,6 +12,7 @@ function LeopardProfiles() {
           return <LeopardIdCard name={info.name} img={info.imgUrl} />;
         })}
       </div>
+      <Footer />
     </div>
   );
 }
