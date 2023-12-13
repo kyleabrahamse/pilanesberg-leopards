@@ -1,7 +1,6 @@
 import { useState } from "react";
 import LeopardIdCard from "../../components/leopard-id-card/leopard-id-card";
 import leopardIdCardsSorted from "../../leopard-profiles";
-import Footer from "../footer/footer";
 
 import "./leopard-id.scss";
 
@@ -29,7 +28,7 @@ function LeopardProfiles() {
       </div>
       <div className="id-list">
         {filteredLeopards.map((info, i) => {
-          return <LeopardIdCard key={i} name={info.name} img={info.imgUrl} />;
+          return <LeopardIdCard key={i} name={info.name} img={info.imgUrl} route={info.name}/>;
         })}
       </div>
     </div>
