@@ -22,6 +22,10 @@
     color: var(--smoky-black);
   }
 
+  li:hover {
+    color: var(--tigers-eye)
+  }
+
   .nav-btn-container {
     display: flex;
     gap: 20px;

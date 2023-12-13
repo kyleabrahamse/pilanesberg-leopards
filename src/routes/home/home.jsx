@@ -1,6 +1,6 @@
 import Button from "../../components/button/button";
 import Gallery from "../../components/gallery/gallery";
-import Footer from "../../components/footer/footer";
+import Footer from "../footer/footer";
 
 import "./home.scss";
 
@@ -101,8 +101,8 @@ function Home() {
               conservation efforts
             </p>
             <div className="in-cont">
-              <input placeholder="Your email" className="email-input"/>
-              <Button text="Subscribe" className="subscribe"/>
+              <input placeholder="Your email" className="email-input" />
+              <Button text="Subscribe" className="subscribe" />
             </div>
           </div>
 
@@ -111,7 +111,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

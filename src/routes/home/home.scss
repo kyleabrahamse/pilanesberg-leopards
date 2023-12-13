@@ -6,7 +6,8 @@
 .hero-container {
   display: flex;
   // background-color: rgb(34, 32, 32);
-  background-image: url("https://scontent.flba3-1.fna.fbcdn.net/v/t39.30808-6/407766492_10219929054416197_8118209007075276183_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=173fa1&_nc_ohc=FiCUagYuJ9wAX_BZVWO&_nc_ht=scontent.flba3-1.fna&oh=00_AfC6t_8M6-GYIrU2rDXW9LjdGrrujDiRKKSYOrGx7eDvbg&oe=65785269");
+  background-image: url("https://scontent.flba3-1.fna.fbcdn.net/v/t39.30808-6/407766492_10219929054416197_8118209007075276183_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=dd477f&_nc_ohc=5BIa8ekHvNoAX9q-xIT&_nc_ht=scontent.flba3-1.fna&oh=00_AfA3O_-ZC4pOxA0dKLfGmNtDazy4i-2IQb7cxBkT35kEkg&oe=657E4129");
+  background-color: var(--moss-green);
   background-repeat: no-repeat;
   background-size: cover;
 }
