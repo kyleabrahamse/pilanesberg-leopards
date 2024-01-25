@@ -13,7 +13,7 @@
 
 .search-container {
   background-color: var(--cornsilk);
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   border-radius: 5px 5px 0 0;
 
@@ -32,7 +32,7 @@
   display: grid;
   object-fit: cover;
   grid-template-columns: repeat(5, 1fr);
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   background-color: var(--cornsilk);
   padding: 100px;

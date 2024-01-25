@@ -57,20 +57,20 @@ const leopardIdCards = [
   },
   {
     imgUrl:
-      "https://scontent.flba3-1.fna.fbcdn.net/v/t1.18169-9/16508044_10206384335726695_8649725216296321220_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=258fd2&_nc_ohc=DPj747qCi3MAX90ySxm&_nc_ht=scontent.flba3-1.fna&oh=00_AfCSGgXJWFjHWZcT_HIyBBVMF_sc2cytzlMEM6EZiyKhDw&oe=659AB70A",
+      "https://scontent.flba3-2.fna.fbcdn.net/v/t1.18169-9/12360148_10203881765724009_7596299916718786238_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=258fd2&_nc_ohc=PdF3ZeY5vI8AX_4iM5q&_nc_ht=scontent.flba3-2.fna&oh=00_AfBn-D1DM5Qq6XhJziuMcZUfNFOH0Kt29ikNZwlmmvLfTg&oe=65D399B0",
     name: "Clover Male",
     gallery: [
       {
-        img1: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.18169-9/16508080_10206384335766696_6790370219885864821_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=258fd2&_nc_ohc=r2RLW4lK2EwAX99CxDl&_nc_ht=scontent.flba3-1.fna&oh=00_AfCPNAJ524yZMQZfz1oIBhqIDQHqzbE8_g-sRlYIA9CjBA&oe=65A16856",
+        img1: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.18169-9/16508080_10206384335766696_6790370219885864821_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=258fd2&_nc_ohc=hrqsa9wtJhUAX-EVOfz&_nc_ht=scontent.flba3-1.fna&oh=00_AfBHr8UTgZzJ3yOGEK6204dizSjbQ_1wUIQkKP7hKSwbGw&oe=65D3B996",
       },
       {
-        img2: "https://scontent.flba3-1.fna.fbcdn.net/v/t31.18172-8/14231805_10205357279330927_5770993570976749144_o.jpg?_nc_cat=105&ccb=1-7&_nc_sid=258fd2&_nc_ohc=tFB4FUIucTMAX-UTmtd&_nc_ht=scontent.flba3-1.fna&oh=00_AfBYa0whm3XnQdMwDSR_XCbDG9fKO7InM4Et_X3MGQELDw&oe=65A18180",
+        img2: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/48392868_10210573150084436_7098296959814860800_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=258fd2&_nc_ohc=lUlW-minuOQAX9CV8hR&_nc_ht=scontent.flba3-1.fna&oh=00_AfB-S9i4X_87TZifhU7jRZ1q4jNvsrKBBD6vWA9rAXBCmQ&oe=65D3C18C",
       },
       {
-        img3: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/120406682_2979046908862662_1892446502465041666_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=258fd2&_nc_ohc=ie5z6R9ZQ44AX-2jKZr&_nc_ht=scontent.flba3-1.fna&oh=00_AfDfoxwPnpacu_f5q2vQzeiEY-pWrG82-GhHstLzOQwKVw&oe=65A17D82",
+        img3: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/120406682_2979046908862662_1892446502465041666_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=258fd2&_nc_ohc=8QibzrJzaTYAX-PiY0b&_nc_ht=scontent.flba3-1.fna&oh=00_AfAQc0LXdYBxo3n18KVCIDNsLnE04TakudU5h-AITTr52w&oe=65D39682",
       },
       {
-        img4: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/48392868_10210573150084436_7098296959814860800_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=258fd2&_nc_ohc=Mmosyj78-q4AX9yGOBE&_nc_ht=scontent.flba3-1.fna&oh=00_AfCmB31h9b7c7BjhRRhxjIA31pVN60xbxC2NuuBoX2Lvbw&oe=65A1704C",
+        img4: "https://scontent.flhr4-4.fna.fbcdn.net/v/t31.18172-8/14231805_10205357279330927_5770993570976749144_o.jpg?_nc_cat=105&ccb=1-7&_nc_sid=258fd2&_nc_ohc=agj0i5sR3qUAX8EKjHf&_nc_ht=scontent.flhr4-4.fna&oh=00_AfAWs8FyTEaNi04KA73OJmAco5WznSN1-sLzDZ0FDSbPvA&oe=65D39A80",
       },
     ],
   },
@@ -168,7 +168,7 @@ const leopardIdCards = [
   },
   {
     imgUrl:
-      "https://scontent.flba3-1.fna.fbcdn.net/v/t31.18172-8/21414727_10207739353281287_1325416215287139443_o.jpg?_nc_cat=100&ccb=1-7&_nc_sid=258fd2&_nc_ohc=pW1Rtn6vIHMAX_NcR3X&_nc_ht=scontent.flba3-1.fna&oh=00_AfBlYe0VSTHGmQ9petG0HIac7u3OQw54YiiChEwhav9FwA&oe=659B048E",
+      "/images/tree.jpg",
     name: "Kgodisa Female",
     gallery: [
       {
@@ -195,7 +195,3 @@ const leopardIdCardsSorted = leopardIdCards.sort((a, b) => {
 
 export default leopardIdCardsSorted;
 
-// {
-//     imgUrl: "",
-//     name: "",
-// }

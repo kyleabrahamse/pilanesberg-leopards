@@ -1,0 +1,79 @@
+.sightings-container {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  background-color: var(--alabaster);
+
+  .sightings-board {
+    padding-right: 10px;
+    overflow: hidden; /* Hide the scrollbar by default */
+    max-height: 100vh; /* Set a max height to limit the scrolling area */
+    transition: overflow 0.3s ease; /* Add transition for a smooth effect */
+    padding-bottom: 50px;
+  
+    &:hover {
+      overflow: auto; /* Show the scrollbar on hover */
+    }
+
+    .sightings-card {
+      box-shadow: 0.4px 0.4px 1px black;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 30px 0;
+      background-color: rgb(240, 239, 239);
+    }
+
+    img {
+      width: 700px;
+    }
+
+    .name-heading {
+      padding-bottom: 30px;
+    }
+
+    .location-name {
+      padding-top: 20px;
+    }
+
+    .card-profile {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+
+    .sightings-card-heading {
+      display: flex;
+      border-bottom: 1px solid black;
+      margin-bottom: 50px;
+      padding: 15px;
+      gap: 15px;
+
+      p {
+        margin-top: auto;
+        padding: 0;
+      }
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    label {
+      font-family: "Noto Serif", serif;
+      padding: 10px 0;
+    }
+
+    input,
+    textarea {
+      font-size: 1.4rem;
+      padding: 8px;
+    }
+
+    #image-input {
+      padding-bottom: 50px;
+    }
+  }
+}

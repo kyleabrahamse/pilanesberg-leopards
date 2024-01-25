@@ -1,6 +1,5 @@
 import Button from "../../components/button/button";
 import Gallery from "../../components/gallery/gallery";
-import Footer from "../footer/footer";
 
 import "./home.scss";
 

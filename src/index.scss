@@ -1,10 +1,10 @@
 :root {
   --cornsilk: #fefae0;
   --earth-yellow: #d5a769;
-  --moss-green: #6B7C6B;
+  --moss-green: #6b7c6b;
   --tigers-eye: #bc6c25;
   --raw-umber: #896242;
-  --smoky-black: #16170E;
+  --smoky-black: #16170e;
   --alabaster: #e5e2db;
   --white: #fff;
 }
@@ -18,8 +18,10 @@
 body {
   font-family: "Noto Serif", serif;
   font-size: 1.6rem;
+  user-select: none;
 }
 
 .link {
   text-decoration: none;
+  color: black;
 }

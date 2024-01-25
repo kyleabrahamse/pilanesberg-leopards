@@ -1,0 +1,29 @@
+.heading {
+  padding-top: 100px;
+  background-color: var(--alabaster);
+  background-image: url("../../../public/images/tours.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 70%;
+  height: 100vh;
+  color: var(--cornsilk);
+}
+
+.tours-info-container {
+  width: 40%;
+  padding: 200px 0 0 100px;
+
+  h1 {
+    padding-bottom: 20px;
+  }
+
+}
+
+.tour-operators-container {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  padding: 100px 0;
+  background-color: whitesmoke;
+}  
+

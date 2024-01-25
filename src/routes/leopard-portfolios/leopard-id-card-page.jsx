@@ -6,7 +6,14 @@ function LeopardIdCardPage({ leopard }) {
 
   return (
     <div className="id-page-container">
-      <h1>{leopard.name}</h1>
+      <div className="profile-picture-container">
+        <img
+          src={leopard.imgUrl}
+          alt={leopard.name}
+          className="profile-picture"
+        />
+        <h1>{leopard.name}</h1>
+      </div>
       <div className="portfolio-image-container">
         {gallery.map((imageObject, index) => {
           // Extract the image URL from the values inside the object
