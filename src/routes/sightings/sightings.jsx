@@ -36,14 +36,9 @@ function Sightings() {
     <div className="sightings-container">
       <div className="sightings-board">
         {dummyData.map((data) => {
-          console.log("Searching for:", data.name.toLowerCase());
-
           const matchingLeopard = leopardIdCardsSorted.find((leo) => {
-            console.log("Comparing with:", leo.name.toLowerCase());
             return leo.name.toLowerCase().includes(data.name.toLowerCase());
           });
-
-          console.log("Matching Leopard:", matchingLeopard);
 
           return (
             <SightingsCard
@@ -54,6 +49,7 @@ function Sightings() {
               description={data.description}
               key={data.id}
               profilePic={matchingLeopard.imgUrl}
+              navName={matchingLeopard.name}
             />
           );
         })}

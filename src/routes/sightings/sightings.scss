@@ -11,7 +11,7 @@
     max-height: 100vh; /* Set a max height to limit the scrolling area */
     transition: overflow 0.3s ease; /* Add transition for a smooth effect */
     padding-bottom: 50px;
-  
+
     &:hover {
       overflow: auto; /* Show the scrollbar on hover */
     }
@@ -30,6 +30,10 @@
 
     .name-heading {
       padding-bottom: 30px;
+    }
+
+    .name-heading:hover {
+      color: var(--tigers-eye);
     }
 
     .location-name {
