@@ -75,6 +75,6 @@ img {
   .menu-open {
     display: block;
     flex-direction: column;
-
+    transition: all 1s ease-in;
   }
 }
