@@ -23,7 +23,7 @@
   }
 
   li:hover {
-    color: var(--tigers-eye)
+    color: var(--tigers-eye);
   }
 
   .nav-btn-container {
@@ -48,16 +48,13 @@ img {
   }
 
   .nav-bar {
-    align-items: normal;    
+    align-items: normal;
   }
 
   .burger-menu {
     display: block;
     padding: 35px 20px 35px 0;
-    transition: all 0.5s ease;
   }
-
-  
 
   .nav-left {
     flex-direction: column;
@@ -72,9 +69,22 @@ img {
     padding-bottom: 30px;
   }
 
+  .menu-container {
+    max-height: 200px;
+    overflow: hidden;
+    transition: max-height 500ms ease;
+    background-color: var(--cornsilk);
+  }
+
+  .content {
+    padding: 40px;
+  }
+
   .menu-open {
-    display: block;
-    flex-direction: column;
-    transition: all 1s ease-in;
+    max-height: 200px; /* Adjust the height as needed */
+  }
+
+  .menu-close {
+    max-height: 0;
   }
 }

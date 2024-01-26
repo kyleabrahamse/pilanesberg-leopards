@@ -20,7 +20,7 @@ function Nav() {
             <Link to="/">
               <img src="images/logo-1.png" alt="logo" />
             </Link>
-            <ul className={isOpen ? "menu-open" : "menu-close"}>
+            <ul className="menu-close">
               <Link className="link" to="/tours">
                 <li>Tours</li>
               </Link>
@@ -50,8 +50,26 @@ function Nav() {
             }
             onClick={burgers}
           ></i>
-          {/* <i class="fa-solid fa-x"></i> */}
-          {/* <p className="burger-menu" onClick={burgers}>burgers</p> */}
+        </div>
+        <div className={`menu-container ${isOpen ? 'menu-open' : 'menu-close'}`}>
+          <ul >
+            {/* <Link className="link" to="/tours">
+              <li>Tours</li>
+            </Link>
+            <Link className="link" to="/gallery">
+              <li>Gallery</li>
+            </Link>
+            <Link className="link" to="/leopard-profiles">
+              <li>Leopard profiles</li>
+            </Link>
+            <Link className="link" to="/sightings">
+              <li>Sightings</li>
+            </Link>
+            <Link className="link" to="conservation">
+              <li>Conservation</li>
+            </Link> */}
+            <h1 className="content">penis</h1>
+          </ul>
         </div>
       </Headroom>
       <Outlet />
