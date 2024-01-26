@@ -15,7 +15,7 @@ const leopardIdCards = [
       {
         img4: "",
       },
-    ]
+    ],
   },
   {
     imgUrl:
@@ -53,7 +53,7 @@ const leopardIdCards = [
       {
         img4: "",
       },
-    ]
+    ],
   },
   {
     imgUrl:
@@ -91,7 +91,7 @@ const leopardIdCards = [
       {
         img4: "",
       },
-    ]
+    ],
   },
   {
     imgUrl: "images/zawadi.jpg",
@@ -109,7 +109,7 @@ const leopardIdCards = [
       {
         img4: "",
       },
-    ]
+    ],
   },
   {
     imgUrl: "images/mogako.jpg",
@@ -127,7 +127,7 @@ const leopardIdCards = [
       {
         img4: "",
       },
-    ]
+    ],
   },
   {
     imgUrl: "images/nandi.jpg",
@@ -145,7 +145,7 @@ const leopardIdCards = [
       {
         img4: "",
       },
-    ]
+    ],
   },
   {
     imgUrl:
@@ -164,11 +164,10 @@ const leopardIdCards = [
       {
         img4: "",
       },
-    ]
+    ],
   },
   {
-    imgUrl:
-      "/images/tree.jpg",
+    imgUrl: "/images/tree.jpg",
     name: "Kgodisa Female",
     gallery: [
       {
@@ -183,7 +182,7 @@ const leopardIdCards = [
       {
         img4: "",
       },
-    ]
+    ],
   },
 ];
 
@@ -194,4 +193,3 @@ const leopardIdCardsSorted = leopardIdCards.sort((a, b) => {
 });
 
 export default leopardIdCardsSorted;
-

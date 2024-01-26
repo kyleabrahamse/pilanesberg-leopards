@@ -14,7 +14,7 @@ function Nav() {
 
   return (
     <div>
-      <Headroom>
+      {/* <Headroom> */}
         <div className="nav-bar">
           <div className="nav-left">
             <Link to="/">
@@ -52,8 +52,8 @@ function Nav() {
           ></i>
         </div>
         <div className={`menu-container ${isOpen ? 'menu-open' : 'menu-close'}`}>
-          <ul >
-            {/* <Link className="link" to="/tours">
+          <ul className="content">
+            <Link className="link" to="/tours">
               <li>Tours</li>
             </Link>
             <Link className="link" to="/gallery">
@@ -67,11 +67,10 @@ function Nav() {
             </Link>
             <Link className="link" to="conservation">
               <li>Conservation</li>
-            </Link> */}
-            <h1 className="content">penis</h1>
+            </Link>
           </ul>
         </div>
-      </Headroom>
+      {/* </Headroom> */}
       <Outlet />
     </div>
   );

@@ -37,7 +37,7 @@ img {
   width: 120px;
 }
 
-.burger-menu {
+.burger-menu, .menu-container {
   display: none;
 }
 
@@ -70,18 +70,26 @@ img {
   }
 
   .menu-container {
+    display: block;
     max-height: 200px;
     overflow: hidden;
     transition: max-height 500ms ease;
+    // transform: translateY(200px);
     background-color: var(--cornsilk);
   }
 
   .content {
-    padding: 40px;
+    padding: 40px 0;
+
+    li {
+      list-style-type: none;
+      padding-bottom: 10px;
+      padding-left: 20px;
+    }
   }
 
   .menu-open {
-    max-height: 200px; /* Adjust the height as needed */
+    max-height: 300px; /* Adjust the height as needed */
   }
 
   .menu-close {

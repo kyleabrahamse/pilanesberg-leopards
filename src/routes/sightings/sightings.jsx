@@ -1,10 +1,12 @@
 import Button from "../../components/button/button";
+import SightingsCard from "../../components/sightings-card.jsx/sightings-card";
 import leopardIdCardsSorted from "../../leopard-profiles";
 
 import "./sightings.scss";
 
 const dummyData = [
   {
+    id: 1,
     name: "Clover",
     location: "Tilodi dam",
     time: "09:00",
@@ -12,6 +14,7 @@ const dummyData = [
     image: "images/clover.jpg",
   },
   {
+    id: 2,
     name: "Kgodisa",
     location: "Thutlwa road",
     time: "18:00",
@@ -19,6 +22,7 @@ const dummyData = [
     image: "images/kgodisa.JPG",
   },
   {
+    id: 3,
     name: "Zawadi",
     location: "Makwe way",
     time: "17:00",
@@ -32,23 +36,25 @@ function Sightings() {
     <div className="sightings-container">
       <div className="sightings-board">
         {dummyData.map((data) => {
+          console.log("Searching for:", data.name.toLowerCase());
+
+          const matchingLeopard = leopardIdCardsSorted.find((leo) => {
+            console.log("Comparing with:", leo.name.toLowerCase());
+            return leo.name.toLowerCase().includes(data.name.toLowerCase());
+          });
+
+          console.log("Matching Leopard:", matchingLeopard);
+
           return (
-            <div className="sightings-card">
-              <div className="sightings-card-heading">
-                {leopardIdCardsSorted.map((leo) => {
-                  if (
-                    leo.name.toLowerCase().includes(data.name.toLowerCase())
-                  ) {
-                    return <img className="card-profile" src={leo.imgUrl} />;
-                  }
-                })}
-                <p className="name-heading">{data.name}</p>
-              </div>
-              <img src={data.image} alt="leopard" />
-              <p className="location-name">{data.location}</p>
-              <p className="time">{data.time}</p>
-              <p className="description">{data.description}</p>
-            </div>
+            <SightingsCard
+              img={data.image}
+              name={data.name}
+              location={data.location}
+              time={data.time}
+              description={data.description}
+              key={data.id}
+              profilePic={matchingLeopard.imgUrl}
+            />
           );
         })}
       </div>
