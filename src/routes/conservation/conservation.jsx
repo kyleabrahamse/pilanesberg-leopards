@@ -6,7 +6,7 @@ function Conservation() {
   return (
     <div className="conservation-container">
       <img
-        src="https://scontent.flba3-2.fna.fbcdn.net/v/t39.30808-6/239221600_10161364568484778_3695059215571161848_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=dd477f&_nc_ohc=Z0aNpSBOLsgAX-jpjN5&_nc_ht=scontent.flba3-2.fna&oh=00_AfAKBs17FvcYpwXTRpxtcZ4o0EGRN8IT5LNZVnN-DsMB-w&oe=65B3B395"
+        src="https://scontent.flba3-2.fna.fbcdn.net/v/t39.30808-6/239221600_10161364568484778_3695059215571161848_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=dd477f&_nc_ohc=iPOoxoj118sAX_6YeIp&_nc_ht=scontent.flba3-2.fna&oh=00_AfBgdV3qW4GmkPyoCeuoHYPWbExDLxW5jryTTCrtGqOgmQ&oe=65C38595"
         alt="leopard yawn"
       />
       <div className="conservation-container-right">
