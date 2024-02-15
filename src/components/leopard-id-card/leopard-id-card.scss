@@ -27,3 +27,14 @@
 .card-id-container:hover {
   cursor: pointer;
 }
+
+@media (max-width: 800px) {
+  .card-id-container {
+    width: 80%;
+    height: auto;
+
+    img {
+      width: 70%;
+    }
+  }
+}

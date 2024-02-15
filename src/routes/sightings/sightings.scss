@@ -81,3 +81,21 @@
     }
   }
 }
+
+@media (max-width: 800px) {
+  .sightings-container {
+    .sightings-container-form {
+      display: none;
+    }
+
+    .sightings-board {
+      width: 90%;
+    }
+
+    .sightings-card {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
