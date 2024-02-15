@@ -18,7 +18,6 @@
   h1 {
     padding-bottom: 20px;
   }
-
 }
 
 .tour-operators-container {
@@ -27,5 +26,26 @@
   gap: 150px;
   padding: 100px 0;
   background-color: whitesmoke;
-}  
+}
 
+@media (max-width: 800px) {
+  .heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+  }
+
+  .tours-info-container {
+    padding: 0 30px;
+    width: 100%;
+  }
+
+  .tour-operators-container {
+    flex-direction: column;
+    padding: 90px 30px;
+    margin: 0 auto;
+    width: 100%;
+    overflow-x: hidden;
+    gap: 70px;
+  }
+}

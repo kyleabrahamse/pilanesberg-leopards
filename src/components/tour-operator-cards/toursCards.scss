@@ -1,17 +1,28 @@
 .tour-card-container {
-    text-align: center;
-    width: 370px;
+  text-align: center;
+  width: 370px;
 
-    h3 {
-        padding: 30px 0 10px;
-    }
-    
-    p {
-        padding-bottom: 20px;
-    }
+  h3 {
+    padding: 30px 0 10px;
+  }
+
+  p {
+    padding-bottom: 20px;
+  }
+
+  img {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 800px) {
+  .tour-card-container {
+    width: 100%;
 
     img {
-        width: 350px;
-        height: 350px;
+      width: 90%;
+      height: 90%;
     }
+  }
 }
