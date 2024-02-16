@@ -34,8 +34,29 @@
     margin: 0 auto;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
+
     img {
         width: 300px;
         object-fit: cover;
     }
+}
+
+@media(max-width: 800px) {
+  .profile-picture-container {
+
+
+    h1 {
+      font-size: 2.3rem;
+    }
+    
+    .profile-picture {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  .portfolio-image-container {
+    margin: 0 auto;
+  }
 }

@@ -44,8 +44,8 @@ function Sightings() {
             <SightingsCard
               img={data.image}
               name={data.name}
-              location={data.location}
-              time={data.time}
+              location={`Last seen at: ${data.location}`}
+              time={`Time seen: ${data.time}`}
               description={data.description}
               key={data.id}
               profilePic={matchingLeopard.imgUrl}
