@@ -43,8 +43,12 @@ function Nav() {
           </ul>
         </div>
         <div className="nav-btn-container">
-          <Button buttonType="white" text="Contact" />
-          <Button text="Support" />
+          <Link to="/contact">
+            <Button buttonType="white" text="Contact" />
+          </Link>
+          <Link to="/conservation">
+            <Button text="Support" />
+          </Link>
         </div>
         <i
           className={

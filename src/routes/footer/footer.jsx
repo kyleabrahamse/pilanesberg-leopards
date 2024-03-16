@@ -9,7 +9,7 @@ function Footer() {
       <Outlet />
       <div className="footer">
         <strong className="contact">contact:</strong>
-        <p>abc@def.com</p>
+        <p>pilanesbergleopards@gmail.com</p>
         <Link
           target="_blank"
           to="https://www.facebook.com/groups/PilanesbergLeopardProject/"
