@@ -1,0 +1,36 @@
+.about-container {
+    background-color: var(--alabaster);
+
+    img {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
+}
+
+.about-content-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 100px 0;
+
+    h1 {
+        padding-bottom: 20px;
+    }
+
+    p {
+        padding-top: 20px;
+    }
+
+    span {
+        color: rgb(247, 130, 67);
+        text-decoration: none;
+    }
+
+    span:hover {
+        color: var(--tigers-eye)
+    }
+
+    .btn-div {
+        padding-top: 50px;
+    }
+}

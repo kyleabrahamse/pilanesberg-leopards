@@ -19,6 +19,9 @@ function Nav() {
             <img src="images/logo-1.png" alt="logo" />
           </Link>
           <ul className="menu-close">
+            <Link className="link" to="/About">
+              <li>About</li>
+            </Link>
             <Link className="link" to="/tours">
               <li>Tours</li>
             </Link>

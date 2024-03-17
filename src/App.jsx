@@ -11,6 +11,7 @@ import Sightings from "./routes/sightings/sightings";
 import Conservation from "./routes/conservation/conservation";
 import Tours from "./routes/tours/tours";
 import Contact from "./routes/contact/contact";
+import About from "./routes/about/about";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="sightings" element={<Sightings />} />
           <Route path="conservation" element={<Conservation />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="about" element={<About />} />
           {leopardIdCardsSorted.map((leopard, index) => (
             <Route
               key={index}
