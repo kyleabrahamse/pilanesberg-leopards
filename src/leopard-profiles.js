@@ -56,21 +56,21 @@ const leopardIdCards = [
     ],
   },
   {
-    imgUrl:
-      "https://scontent.flba3-2.fna.fbcdn.net/v/t1.18169-9/12360148_10203881765724009_7596299916718786238_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=258fd2&_nc_ohc=PdF3ZeY5vI8AX_4iM5q&_nc_ht=scontent.flba3-2.fna&oh=00_AfBn-D1DM5Qq6XhJziuMcZUfNFOH0Kt29ikNZwlmmvLfTg&oe=65D399B0",
+    imgUrl: "images/Clover.jpg",
     name: "Clover Male",
+    idCard: "images/clover-id-card.jpg",
     gallery: [
       {
-        img1: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.18169-9/16508080_10206384335766696_6790370219885864821_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=258fd2&_nc_ohc=hrqsa9wtJhUAX-EVOfz&_nc_ht=scontent.flba3-1.fna&oh=00_AfBHr8UTgZzJ3yOGEK6204dizSjbQ_1wUIQkKP7hKSwbGw&oe=65D3B996",
+        img1: "images/clover.jpg",
       },
       {
-        img2: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/48392868_10210573150084436_7098296959814860800_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=258fd2&_nc_ohc=lUlW-minuOQAX9CV8hR&_nc_ht=scontent.flba3-1.fna&oh=00_AfB-S9i4X_87TZifhU7jRZ1q4jNvsrKBBD6vWA9rAXBCmQ&oe=65D3C18C",
+        img2: "images/clover2.jpg",
       },
       {
-        img3: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/120406682_2979046908862662_1892446502465041666_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=258fd2&_nc_ohc=8QibzrJzaTYAX-PiY0b&_nc_ht=scontent.flba3-1.fna&oh=00_AfAQc0LXdYBxo3n18KVCIDNsLnE04TakudU5h-AITTr52w&oe=65D39682",
+        img3: "images/clover3.jpg",
       },
       {
-        img4: "https://scontent.flhr4-4.fna.fbcdn.net/v/t31.18172-8/14231805_10205357279330927_5770993570976749144_o.jpg?_nc_cat=105&ccb=1-7&_nc_sid=258fd2&_nc_ohc=agj0i5sR3qUAX8EKjHf&_nc_ht=scontent.flhr4-4.fna&oh=00_AfAWs8FyTEaNi04KA73OJmAco5WznSN1-sLzDZ0FDSbPvA&oe=65D39A80",
+        img4: "images/clover4.jpg",
       },
     ],
   },
@@ -169,6 +169,7 @@ const leopardIdCards = [
   {
     imgUrl: "/images/tree.jpg",
     name: "Kgodisa Female",
+    idCard: "images/kgodisa-id-card.jpg",
     gallery: [
       {
         img1: "",

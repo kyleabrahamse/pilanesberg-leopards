@@ -10,7 +10,7 @@ const dummyData = [
     name: "Clover",
     location: "Tilodi dam",
     time: "09:00",
-    description: "Seen pomping an elephant",
+    description: "Seen near the big termite mound",
     image: "images/clover.jpg",
   },
   {
@@ -26,7 +26,7 @@ const dummyData = [
     name: "Zawadi",
     location: "Makwe way",
     time: "17:00",
-    description: "Eating a nice juicy zebra calf",
+    description: "Eating a nice juicy zebra",
     image: "images/zawadi-test.jpg",
   },
 ];

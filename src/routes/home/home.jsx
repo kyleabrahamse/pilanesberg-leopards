@@ -1,5 +1,6 @@
 import Button from "../../components/button/button";
 import Gallery from "../../components/gallery/gallery";
+import { Link } from "react-router-dom";
 
 import "./home.scss";
 
@@ -47,7 +48,9 @@ function Home() {
               </div>
             </div>
             <div className="cta-btn">
-              <Button buttonType="white" text="Donate" />
+              <Link to="/conservation">
+                <Button buttonType="white" text="Donate" />
+              </Link>
             </div>
           </div>
           <div className="cta-right">
@@ -85,8 +88,12 @@ function Home() {
             Share your leopard sightings and contribute to our tracking efforts
           </p>
           <div className="btn-container">
-            <Button buttonType="black" text="Report" />
-            <Button buttonType="white" text="Contribute" />
+            <Link to="/sightings">
+              <Button buttonType="black" text="Report" />
+            </Link>
+            <Link to="/conservation">
+              <Button buttonType="white" text="Contribute" />
+            </Link>
           </div>
         </div>
       </div>

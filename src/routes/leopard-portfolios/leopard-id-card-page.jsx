@@ -22,6 +22,12 @@ function LeopardIdCardPage({ leopard }) {
           return <img key={index} src={imageURL} alt={leopard.name} />;
         })}
       </div>
+      {/* <p>Id card</p> */}
+      <img
+        src={leopard.idCard}
+        alt={`${leopard.name} id card`}
+        className="id-card"
+      />
     </div>
   );
 }

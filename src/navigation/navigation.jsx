@@ -1,6 +1,5 @@
 import Button from "../components/button/button";
 import { Outlet, Link } from "react-router-dom";
-import Headroom from "react-headroom";
 import { useState } from "react";
 
 import "./navigation.scss";
@@ -12,13 +11,8 @@ function Nav() {
     setIsOpen((open) => !open);
   }
 
-  // function closeMenu() {
-  //   setIsOpen(false);
-  // }
-
   return (
     <div>
-      {/* <Headroom> */}
       <div className="nav-bar">
         <div className="nav-left">
           <Link to="/">
@@ -78,7 +72,6 @@ function Nav() {
           </Link>
         </ul>
       </div>
-      {/* </Headroom> */}
       <Outlet />
     </div>
   );

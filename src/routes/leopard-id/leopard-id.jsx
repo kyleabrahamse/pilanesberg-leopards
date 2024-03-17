@@ -18,6 +18,7 @@ function LeopardProfiles() {
   return (
     <div className="profiles-container">
       <h1>Leopards of Pilanesberg</h1>
+      <p>Browse collected images of leopards or use id cards to help identify which leopard you've seen</p>
       <div className="search-container">
         <input
           type="search"
