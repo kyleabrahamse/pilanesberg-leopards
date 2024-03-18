@@ -17,8 +17,10 @@ function Home() {
             photographing these magnificent creatures in their natural habitat.
           </p>
           <div className="btn-container">
-            <Button buttonType="black" text="Learn More" />
-            <Button buttonType="white" text="Sign Up" />
+            <Link to="/about">
+              <Button buttonType="white" text="Learn More" />
+            </Link>
+            {/* <Button buttonType="white" text="Sign Up" /> */}
           </div>
         </div>
       </div>
@@ -63,19 +65,25 @@ function Home() {
           <img src="images/binoculars-solid.svg" alt="" />
           <h4>Key functionalities</h4>
           <p>Identify and track leopards, and view recent sightings.</p>
-          <Button text="Learn More" />
+          <Link to="/about">
+            <Button text="Learn More" />
+          </Link>
         </div>
         <div className="links">
           <img src="images/passport-solid.svg" alt="" />
           <h4>Leopard Identification</h4>
           <p>Easily identify individual leopards in the park.</p>
-          <Button text="Learn More" />
+          <Link to="/leopard-profiles">
+            <Button text="Learn More" />
+          </Link>
         </div>
         <div className="links">
           <img src="images/paw-solid.svg" alt="" />
           <h4>Leopard Tracking</h4>
           <p>See the last known location of leopards in the park.</p>
-          <Button text="Learn More" />
+          <Link to="/sightings">
+            <Button text="Learn More" />
+          </Link>
         </div>
       </div>
       <div className="contribute">
@@ -107,8 +115,14 @@ function Home() {
               conservation efforts
             </p>
             <div className="in-cont">
-              <input placeholder="Your email" className="email-input" />
-              <Button text="Subscribe" className="subscribe" />
+              <form>
+                <input
+                  placeholder="Your email"
+                  className="email-input"
+                  type="email"
+                />
+                <Button text="Subscribe" className="subscribe" />
+              </form>
             </div>
           </div>
 

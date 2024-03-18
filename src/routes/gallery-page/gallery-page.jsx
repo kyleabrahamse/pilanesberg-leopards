@@ -10,6 +10,9 @@ function GalleryPage() {
         <img src="images/zawadi.jpg" alt="" />
         <img src="images/light.jpg" alt="" />
         <img src="images/hero.jpg" alt="" />
+        <img src="images/kimbia.jpg" alt="" />
+        <img src="images/zawadi-test.jpg" alt="" />
+        <img src="images/makatane.jpg" alt="" />
       </div>
     </div>
   );
