@@ -169,16 +169,16 @@ const leopardIdCards = [
     idCard: "images/kgodisa-id-card.jpg",
     gallery: [
       {
-        img1: "",
+        img1: "images/kgodisa1.jpg",
       },
       {
-        img2: "",
+        img2: "images/kgodisa2.jpg",
       },
       {
-        img3: "",
+        img3: "images/kgodisa3.jpg",
       },
       {
-        img4: "",
+        img4: "images/kgodisa4.jpg",
       },
     ],
   },
