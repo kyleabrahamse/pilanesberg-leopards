@@ -40,16 +40,16 @@ const leopardIdCards = [
     name: "Kimbia Female",
     gallery: [
       {
-        img1: "",
+        img1: "images/kimbia1.jpg",
       },
       {
-        img2: "",
+        img2: "images/kimbia2.jpg",
       },
       {
-        img3: "",
+        img3: "images/kimbia3.jpg",
       },
       {
-        img4: "",
+        img4: "images/kimbia4.jpg",
       },
     ],
   },
