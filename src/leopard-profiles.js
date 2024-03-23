@@ -114,16 +114,16 @@ const leopardIdCards = [
     name: "Mogako Male",
     gallery: [
       {
-        img1: "",
+        img1: "images/mogako1.jpg",
       },
       {
-        img2: "",
+        img2: "images/mogako2.jpg",
       },
       {
-        img3: "",
+        img3: "images/mogako3.jpg",
       },
       {
-        img4: "",
+        img4: "images/mogako4.jpg",
       },
     ],
   },
@@ -150,16 +150,16 @@ const leopardIdCards = [
     name: "Makatane Male",
     gallery: [
       {
-        img1: "",
+        img1: "images/makatane1.jpg",
       },
       {
-        img2: "",
+        img2: "images/makatane3.jpg",
       },
       {
-        img3: "",
+        img3: "images/makatane2.jpg",
       },
       {
-        img4: "",
+        img4: "images/makatane4.jpg",
       },
     ],
   },
