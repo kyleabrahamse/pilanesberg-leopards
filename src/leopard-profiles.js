@@ -73,21 +73,20 @@ const leopardIdCards = [
     ],
   },
   {
-    imgUrl:
-    "images/motsamai.jpg",
+    imgUrl: "images/motsamai.jpg",
     name: "Motsamai Female",
     gallery: [
       {
-        img1: "",
+        img1: "images/motsamai1.jpg",
       },
       {
-        img2: "",
+        img2: "images/motsamai3.jpg",
       },
       {
-        img3: "",
+        img3: "images/motsamai2.jpg",
       },
       {
-        img4: "",
+        img4: "images/motsamai4.jpg",
       },
     ],
   },
