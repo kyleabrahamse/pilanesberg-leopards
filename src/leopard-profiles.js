@@ -95,16 +95,16 @@ const leopardIdCards = [
     name: "Zawadi Male",
     gallery: [
       {
-        img1: "",
+        img1: "images/zawadi1.jpg",
       },
       {
-        img2: "",
+        img2: "images/zawadi2.jpg",
       },
       {
-        img3: "",
+        img3: "images/zawadi3.jpg",
       },
       {
-        img4: "",
+        img4: "images/zawadi4.jpg",
       },
     ],
   },
